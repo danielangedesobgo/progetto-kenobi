@@ -1,9 +1,1 @@
-img {
-    max-width: 500px; /* Nessuna immagine sarà più larga di 500 pixel */
-    height: auto;     /* Mantiene le proporzioni originali (non le schiaccia) */
-    display: block;   /* Fa in modo che l'immagine vada a capo da sola */
-}
 
-h1 {
-    color: blue;
-}
