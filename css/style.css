@@ -1,9 +1,29 @@
-img {
-    max-width: 500px; /* Nessuna immagine sarà più larga di 500 pixel */
-    height: auto;     /* Mantiene le proporzioni originali (non le schiaccia) */
-    display: block;   /* Fa in modo che l'immagine vada a capo da sola */
+body {
+
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    
+    /* Aumenta leggermente lo spazio tra le righe di testo per renderlo più leggibile */
+    line-height: 1.6; 
+    
+    /* Aggiunge un po' di margine ai lati così il testo non tocca i bordi del telefono */
+    padding: 0 15px; 
 }
 
+img {
+    /* L'immagine non supererà MAI la larghezza dello schermo del dispositivo */
+    max-width: 100%; 
+    
+    /* Mantiene le proporzioni originali senza schiacciarla o stirarla */
+    height: auto;    
+    
+    /* Fa in modo che l'immagine vada a capo e si stacchi dal testo */
+    display: block;  
+    
+    /* Centra l'immagine nella pagina */
+    margin: 20px auto; 
+}
+
+/* --- REGOLE SPECIFICHE (Es. Titoli) --- */
 h1 {
     color: blue;
 }
